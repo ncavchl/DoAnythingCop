@@ -6,7 +6,7 @@ services:
       PORT: 8000
       GUESTBOOK_API_ADDR: backend:8000
     ports:
-      - "8888:8000"
+      - "62000:8000" #포트오픈 기본 8888
   backend:
     image: subicura/guestbook-backend:latest
     environment:
